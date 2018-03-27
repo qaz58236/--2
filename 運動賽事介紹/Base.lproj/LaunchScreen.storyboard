@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="螢幕快照 2018-03-21 上午1.03.33" translatesAutoresizingMaskIntoConstraints="NO" id="YCU-ZP-u9S">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="閃電" translatesAutoresizingMaskIntoConstraints="NO" id="YCU-ZP-u9S">
                                 <rect key="frame" x="0.0" y="177" width="375" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="螢幕快照 2018-03-21 上午1.03.33" width="242" height="190"/>
+        <image name="閃電" width="225" height="225"/>
     </resources>
 </document>

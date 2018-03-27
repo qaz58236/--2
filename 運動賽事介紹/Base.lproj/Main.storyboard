@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DOv-1s-Elc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mcq-Of-Wjg">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,98 +10,102 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--自行車-->
-        <scene sceneID="tne-QT-ifu">
+        <!--自由車-->
+        <scene sceneID="ntg-tY-OTe">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="運動賽事介紹" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController title="自由車" id="is8-13-CCl" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="c5r-Cx-BNs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyU-do-Vnb">
-                                <rect key="frame" x="47" y="114" width="280" height="197"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-eD-MwD">
-                                        <rect key="frame" x="20" y="20" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環義自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPP-dT-DOd">
-                                        <rect key="frame" x="88" y="156" width="104" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVn-oT-oiO">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="197"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="s43-LE-fhx">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="234" id="ZP7-0d-Oiz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZP7-0d-Oiz" id="8iu-lc-lQg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="233.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="yfF-hq-Kut">
+                                                    <rect key="frame" x="16" y="11" width="343" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環義自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CK5-Ic-k8T">
+                                                    <rect key="frame" x="135" y="199" width="104" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ndi-dh-Kq8" kind="show" id="lVf-Ek-LbR"/>
+                                            <segue destination="ndi-dh-Kq8" kind="show" id="Pbt-9T-kbg"/>
                                         </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXv-0V-EJJ">
-                                <rect key="frame" x="47" y="319" width="280" height="197"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環法自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJx-Xh-tvg">
-                                        <rect key="frame" x="91" y="156" width="104" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tour_de_France_logo.svg" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-PC-VxQ">
-                                        <rect key="frame" x="20" y="20" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSw-rv-yg7">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="197"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="234" id="pxB-sn-E7Z">
+                                        <rect key="frame" x="0.0" y="234" width="375" height="234"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pxB-sn-E7Z" id="H7l-na-6OC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="233.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tour_de_France_logo.svg" translatesAutoresizingMaskIntoConstraints="NO" id="vgo-Wh-5Ed">
+                                                    <rect key="frame" x="16" y="11" width="343" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環法自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppv-Jc-tYS">
+                                                    <rect key="frame" x="135" y="199" width="104" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="pzf-CC-xCJ" kind="show" id="aBg-XL-FpJ"/>
+                                            <segue destination="pzf-CC-xCJ" kind="show" id="Fdv-q6-uZb"/>
                                         </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qp8-sN-nsW">
-                                <rect key="frame" x="47" y="524" width="280" height="197"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="0Yk-1F-FaV">
-                                        <rect key="frame" x="20" y="20" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環西班牙自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJ0-Qp-FJJ">
-                                        <rect key="frame" x="71" y="156" width="139" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFP-Ky-NfT">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="197"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="234" id="Zbj-VV-5xH">
+                                        <rect key="frame" x="0.0" y="468" width="375" height="234"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zbj-VV-5xH" id="fcF-yE-GBK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="233.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="ttD-dX-EQW">
+                                                    <rect key="frame" x="16" y="11" width="343" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="環西班牙自由車賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mei-Da-hlf">
+                                                    <rect key="frame" x="113" y="199" width="155" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="N6a-BU-HAd" kind="show" id="OKR-hJ-DGg"/>
+                                            <segue destination="N6a-BU-HAd" kind="show" id="lDf-2G-1px"/>
                                         </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="自行車" id="YyR-XR-AF3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="is8-13-CCl" id="7cd-cW-UPZ"/>
+                            <outlet property="delegate" destination="is8-13-CCl" id="wQK-jQ-SYg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="自行車" id="ZPr-hI-8oD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ga4-D6-CMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2076" y="125.61576354679804"/>
+            <point key="canvasLocation" x="2117.5999999999999" y="867.48768472906409"/>
         </scene>
         <!--環法自由車賽-->
         <scene sceneID="Jar-aj-PqN">
@@ -111,26 +115,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myy-yT-zIU">
-                                <rect key="frame" x="156" y="161" width="62" height="30"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="桌布" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-wQ-ytD">
+                                <rect key="frame" x="0.0" y="86" width="375" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="關於環法"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myy-yT-zIU">
+                                <rect key="frame" x="79" y="150" width="219" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="關於環法">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="rt5-uO-92g" kind="show" id="zMW-Dv-Jed"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qd-fh-sKf">
-                                <rect key="frame" x="164" y="380" width="46" height="30"/>
+                                <rect key="frame" x="142" y="376" width="91" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="領騎衫"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="領騎衫">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="AHN-d8-e9S" kind="show" id="6dj-Ne-JO6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fk-uR-kZn">
-                                <rect key="frame" x="157" y="622" width="62" height="30"/>
+                                <rect key="frame" x="74" y="524" width="229" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="現任冠軍"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="現任冠軍">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="8hD-Dm-YBe" kind="show" id="n2O-pb-Htv"/>
                                 </connections>
@@ -142,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sjj-zz-38N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3122.4000000000001" y="249.7536945812808"/>
+            <point key="canvasLocation" x="4149.6000000000004" y="249.7536945812808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kf8-tm-dFH">
@@ -174,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSU-wu-WfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3967.1999999999998" y="249.7536945812808"/>
+            <point key="canvasLocation" x="4994.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--領騎衫-->
         <scene sceneID="LYN-12-gBS">
@@ -291,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbW-rq-wGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4724" y="249.7536945812808"/>
+            <point key="canvasLocation" x="5751.1999999999998" y="249.7536945812808"/>
         </scene>
         <!--環西班牙自由車賽-->
         <scene sceneID="dOG-AX-fGH">
@@ -301,28 +318,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr0-zo-x4U">
-                                <rect key="frame" x="164" y="380" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="桌布" translatesAutoresizingMaskIntoConstraints="NO" id="iYj-ZK-m3f">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="領騎衫"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr0-zo-x4U">
+                                <rect key="frame" x="114" y="360" width="149" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="領騎衫">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="xjt-fN-BUG" kind="show" id="Zw8-gl-Mce"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byk-8y-Zt7">
-                                <rect key="frame" x="157" y="622" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="現任冠軍"/>
-                                <connections>
-                                    <segue destination="FeN-uh-zY5" kind="show" id="FCg-vl-csc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idt-jb-EDp">
-                                <rect key="frame" x="137" y="154" width="100" height="30"/>
+                                <rect key="frame" x="64" y="132" width="249" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="關於環西班牙"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="關於環西班牙">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="usc-2k-bAG" kind="show" id="vfs-4j-a9o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byk-8y-Zt7">
+                                <rect key="frame" x="101" y="551" width="175" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="現任冠軍">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FeN-uh-zY5" kind="show" id="FCg-vl-csc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -332,125 +363,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qju-Vh-dAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2784.8000000000002" y="960.59113300492618"/>
-        </scene>
-        <!--大滿貫-->
-        <scene sceneID="zyX-dY-bLH">
-            <objects>
-                <viewController title="大滿貫" id="Rye-K9-UQA" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="n6t-fj-oJa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PAb-Uh-xJa">
-                                <rect key="frame" x="71" y="88" width="233" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="澳洲網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whk-fZ-hr4">
-                                        <rect key="frame" x="20" y="117" width="193" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Australian_Open_Logo_2017" translatesAutoresizingMaskIntoConstraints="NO" id="kEV-LD-uDt">
-                                        <rect key="frame" x="45" y="20" width="143" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehA-Dc-9q0">
-                                        <rect key="frame" x="8" y="0.0" width="225" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="zys-XM-JgK" kind="show" id="bJh-wH-wON"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ik-HR-ay5">
-                                <rect key="frame" x="71" y="254" width="233" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="法國網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKQ-fn-NJ3">
-                                        <rect key="frame" x="20" y="117" width="193" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="240px-Frenchopen.svg" translatesAutoresizingMaskIntoConstraints="NO" id="fGE-GU-MZf">
-                                        <rect key="frame" x="45" y="20" width="143" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYc-P7-EfV">
-                                        <rect key="frame" x="4" y="4" width="225" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="Jt6-6D-rrO" kind="show" id="nZK-4O-ZN3"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGn-R0-IpW">
-                                <rect key="frame" x="71" y="420" width="233" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="溫布頓網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIN-eQ-Qth">
-                                        <rect key="frame" x="20" y="117" width="193" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wim_tennis.svg" translatesAutoresizingMaskIntoConstraints="NO" id="mN7-jK-QXZ">
-                                        <rect key="frame" x="45" y="20" width="143" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buV-kw-fl7">
-                                        <rect key="frame" x="4" y="4" width="225" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="D4m-O5-mL3" kind="show" id="9td-4L-XQg"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TD3-jm-2fS">
-                                <rect key="frame" x="71" y="586" width="233" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcD-Q6-i0M">
-                                        <rect key="frame" x="20" y="117" width="193" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="US_Open.svg" translatesAutoresizingMaskIntoConstraints="NO" id="qF1-rD-VDF">
-                                        <rect key="frame" x="45" y="20" width="143" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpU-ms-fGb">
-                                        <rect key="frame" x="4" y="4" width="225" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="tRU-Wt-EFl" kind="show" id="MGP-gB-l9x"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="OC9-sZ-bZb"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="l4z-QZ-mF7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zyZ-tz-l8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2189.5999999999999" y="2880.2955665024633"/>
+            <point key="canvasLocation" x="3812" y="960.59113300492618"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wXh-NT-7sd">
@@ -494,7 +407,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h3W-qC-Mca">
-                                <rect key="frame" x="16" y="486" width="343" height="110"/>
+                                <rect key="frame" x="16" y="485" width="343" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">1904年，澳洲和紐西蘭的網球機構官員決定成立澳大拉西亞草地網球協會（the Australasian Lawn Tennis Association）負責籌辦每年一屆的澳大拉西亞錦標賽（Australasian championships）並共同組隊參加台維斯盃的比賽。1905年11月，首屆澳大拉西亞錦標賽在墨爾本聖克爾達路（St Kilda Road）艾伯特公園（Albert Park）內的倉庫老闆板球場（Warehouseman's Cricket Ground）的舉行。當時總共有17名男選手參賽，最後羅德尼·希斯（Rodney Heath）奪得了男單冠軍。
@@ -512,7 +425,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="目前，澳網目前的主辦地為墨爾本公園的網球中心，其中最大的場館即中心球場為羅德·拉沃競技場；其餘較大規模的為海信球場、瑪格麗特·考特體育館。除了以上三大主球場，周邊還分布了超過20個比賽專用或球員訓練用的小球場。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="34y-mp-lKf">
-                                <rect key="frame" x="16" y="645" width="343" height="84"/>
+                                <rect key="frame" x="16" y="640" width="343" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -525,7 +438,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3O-Sw-Egb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2901.5999999999999" y="2879.5566502463057"/>
+            <point key="canvasLocation" x="3586.4000000000001" y="2879.5566502463057"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8ba-Rk-nY4">
@@ -556,7 +469,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kep-Q8-dxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3625" y="961"/>
+            <point key="canvasLocation" x="4652" y="960.59113300492618"/>
         </scene>
         <!--環義自由車賽-->
         <scene sceneID="5qm-tb-ACi">
@@ -566,28 +479,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcr-QS-cVb">
-                                <rect key="frame" x="164" y="391" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="桌布" translatesAutoresizingMaskIntoConstraints="NO" id="965-I2-VrZ">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="領騎衫"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcr-QS-cVb">
+                                <rect key="frame" x="98" y="367" width="178" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="領騎衫">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="rO6-tx-16m" kind="show" id="4qL-1j-eun"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsK-jF-y6h">
-                                <rect key="frame" x="144" y="633" width="87" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="現任冠軍"/>
-                                <connections>
-                                    <segue destination="R6Y-gV-j4Z" kind="show" id="oXt-KU-OVr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdP-i1-ePn">
                                 <rect key="frame" x="110" y="170" width="154" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="關於環義"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="關於環義">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="cfd-Cb-9BE" kind="show" id="er1-JQ-3c5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsK-jF-y6h">
+                                <rect key="frame" x="93" y="516" width="188" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="現任冠軍">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="R6Y-gV-j4Z" kind="show" id="oXt-KU-OVr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -787,25 +713,6 @@
             </objects>
             <point key="canvasLocation" x="5463.1999999999998" y="-460.34482758620692"/>
         </scene>
-        <!--自由車-->
-        <scene sceneID="qcI-Gp-Glp">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2do-WU-vg0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="自由車" id="gja-3A-Pn9"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ppd-iU-u6A">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BZ9-WN-XyZ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cuo-Tl-DOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1348" y="125.61576354679804"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="h9s-La-DjY">
             <objects>
@@ -1003,7 +910,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sBJ-vv-Xkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6191.1999999999998" y="249.7536945812808"/>
+            <point key="canvasLocation" x="7218.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AaN-Qp-oHA">
@@ -1045,7 +952,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egk-Jq-mUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5463.1999999999998" y="249.7536945812808"/>
+            <point key="canvasLocation" x="6490.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="70O-z3-hWM">
@@ -1091,7 +998,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1i-Hg-x8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6895.1999999999998" y="249.7536945812808"/>
+            <point key="canvasLocation" x="7922.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bft-Gx-QsA">
@@ -1133,7 +1040,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiN-m1-8Yt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7583.1999999999998" y="249.7536945812808"/>
+            <point key="canvasLocation" x="8610.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--現任冠軍-->
         <scene sceneID="xe6-9v-IU1">
@@ -1171,7 +1078,7 @@ Chris Froome</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX4-LN-O8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8263.2000000000007" y="249.7536945812808"/>
+            <point key="canvasLocation" x="9290.3999999999996" y="249.7536945812808"/>
         </scene>
         <!--領騎衫-->
         <scene sceneID="6L1-fv-bOP">
@@ -1288,7 +1195,7 @@ Chris Froome</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DfW-xf-zyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4382" y="961"/>
+            <point key="canvasLocation" x="5408.8000000000002" y="960.59113300492618"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wsd-fr-upe">
@@ -1325,7 +1232,7 @@ Chris Froome</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbV-ld-Woa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5121" y="961"/>
+            <point key="canvasLocation" x="6148" y="960.59113300492618"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5rZ-fd-Dzw">
@@ -1360,7 +1267,7 @@ Chris Froome</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgL-9j-eME" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5849" y="961"/>
+            <point key="canvasLocation" x="6876" y="960.59113300492618"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pTR-YD-NEJ">
@@ -1397,7 +1304,7 @@ Chris Froome</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0MQ-FZ-QrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6553" y="961"/>
+            <point key="canvasLocation" x="7580" y="960.59113300492618"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GCU-5D-VOE">
@@ -1440,7 +1347,7 @@ B選手總排8，積分王第10，KOM第1 (8+10+1=19)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mii-Ry-yC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7241" y="961"/>
+            <point key="canvasLocation" x="8268" y="960.59113300492618"/>
         </scene>
         <!--現任冠軍-->
         <scene sceneID="x3n-ej-X7v">
@@ -1479,26 +1386,156 @@ Nairo Quintana</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhW-4U-wrh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7921" y="961"/>
+            <point key="canvasLocation" x="8948" y="960.59113300492618"/>
         </scene>
         <!--網球-->
-        <scene sceneID="ouq-Qp-miz">
+        <scene sceneID="UWf-GA-N3d">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cel-xZ-INJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="網球" id="QhH-m7-1ij"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xL7-jc-phV">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Rye-K9-UQA" kind="relationship" relationship="rootViewController" id="ZwB-Tz-akr"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wah-3a-7E9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="XzH-tR-AJ5" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rrq-RS-qyc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="xlF-8v-3Oq">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="eLm-Os-ykA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="163"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLm-Os-ykA" id="Sgj-Ut-skK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="162.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9r-oB-xe4">
+                                                    <rect key="frame" x="71" y="11" width="233" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="澳洲網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ted-iQ-tWa">
+                                                            <rect key="frame" x="20" y="117" width="193" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Australian_Open_Logo_2017" translatesAutoresizingMaskIntoConstraints="NO" id="3s7-iJ-Q3m">
+                                                            <rect key="frame" x="45" y="20" width="143" height="89"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zys-XM-JgK" kind="show" id="Hvx-lx-hsX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="UUb-Js-sGw">
+                                        <rect key="frame" x="0.0" y="163" width="375" height="163"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UUb-Js-sGw" id="6S9-9Y-5Id">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="162.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FnR-sg-0BQ">
+                                                    <rect key="frame" x="71" y="2" width="233" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="法國網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amm-b9-S0E">
+                                                            <rect key="frame" x="20" y="117" width="193" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="240px-Frenchopen.svg" translatesAutoresizingMaskIntoConstraints="NO" id="q5a-Vm-mFd">
+                                                            <rect key="frame" x="45" y="20" width="143" height="89"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Jt6-6D-rrO" kind="show" id="fhf-VA-ohI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="HKB-uy-pKN">
+                                        <rect key="frame" x="0.0" y="326" width="375" height="163"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HKB-uy-pKN" id="Bav-3N-Y3D">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="162.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVj-zw-Tn2">
+                                                    <rect key="frame" x="71" y="2" width="233" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="溫布頓網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-O3-w4a">
+                                                            <rect key="frame" x="20" y="117" width="193" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wim_tennis.svg" translatesAutoresizingMaskIntoConstraints="NO" id="nUV-N7-H4W">
+                                                            <rect key="frame" x="45" y="20" width="143" height="89"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="D4m-O5-mL3" kind="show" id="WtH-pm-gJ5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="zVR-HP-zkt">
+                                        <rect key="frame" x="0.0" y="489" width="375" height="163"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zVR-HP-zkt" id="ihU-YR-Qxe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="162.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1p8-U2-xGi">
+                                                    <rect key="frame" x="71" y="2" width="233" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國網球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSG-dw-dWT">
+                                                            <rect key="frame" x="20" y="117" width="193" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="US_Open.svg" translatesAutoresizingMaskIntoConstraints="NO" id="bfQ-Mv-thH">
+                                                            <rect key="frame" x="45" y="20" width="143" height="89"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="tRU-Wt-EFl" kind="show" id="TnG-zI-8KZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="XzH-tR-AJ5" id="p59-3e-RNZ"/>
+                            <outlet property="delegate" destination="XzH-tR-AJ5" id="i1g-7w-R8P"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="網球" id="aTQ-HK-RK9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Db-mj-vuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1399" y="2880"/>
+            <point key="canvasLocation" x="2204" y="2880"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AOh-qA-AG4">
@@ -1557,7 +1594,7 @@ Nairo Quintana</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="keA-cm-YAo">
-                                <rect key="frame" x="16" y="645" width="343" height="84"/>
+                                <rect key="frame" x="16" y="640" width="343" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">相較於草地與硬地，法網的紅土球場具有減緩球速、旋轉強烈、產生高彈跳的特性，使得球員的回擊與反應時間較長。有鑑於此，對許多速球型選手來說，場地會降低他們發球的威力與速度優勢，要發出直接得分的球並不容易，迫使他們必須持續與跟對手來回擊球，才能藉機得分。所以，紅土比賽對球員體能與意志力的要求更高，移動迅速且範圍廣、耐心對峙、低失誤的穩定表現，是紅土作戰的關鍵。一般而言，防禦型底線型球員在紅土的表現較為優異。
@@ -1573,7 +1610,7 @@ Nairo Quintana</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3a-Dm-fRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3592.8000000000002" y="2879.5566502463057"/>
+            <point key="canvasLocation" x="4277.6000000000004" y="2879.5566502463057"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pV9-HI-hlo">
@@ -1630,7 +1667,7 @@ Nairo Quintana</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1kx-cn-TeC">
-                                <rect key="frame" x="16" y="642" width="343" height="87"/>
+                                <rect key="frame" x="16" y="637" width="343" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">主要球場叫做「中央球場」，是舉行決賽的地方。由於比賽過程中倫敦天氣的不可預知性，球場配有可摺疊的屋頂，於2009年完工。另一主要球場是一號球場。一號球場在1997年經過一次大型重建，由比鄰中央球場的原址搬到了一個新的可容納更多觀眾的專用場地。原來的一號球場據說擁有獨特的氛圍，是許多選手的心愛之地，所以有很多人對其移址感到悲傷。一號球場通常舉辦一些非常重要的比賽，如單打的半準決賽，它還擁有一座外置的巨大螢幕，用來讓聚集在場外穆瑞坡（Murray Hill，原名韓曼坡Henman Hill）上觀戰的球迷欣賞比賽。每年都有成千上萬的球迷在這塊山坡上為衝擊冠軍的本土球員加油助威，但是遺憾的是，1936年之來，英國的球員再沒有舉起過冠軍獎盃，直到2013年，穆瑞終於舉起冠軍獎盃。
@@ -1646,7 +1683,7 @@ Nairo Quintana</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qbc-0c-0Cn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4300" y="2879.5566502463057"/>
+            <point key="canvasLocation" x="4984.8000000000002" y="2879.5566502463057"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yn7-ce-QGS">
@@ -1704,7 +1741,7 @@ Nairo Quintana</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LgK-gt-72l">
-                                <rect key="frame" x="16" y="658" width="343" height="71"/>
+                                <rect key="frame" x="16" y="653" width="343" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">主要球場為有23,000個座位的亞瑟·艾許球場，以1968年贏得男子單打冠軍的著名非洲裔美國網球選手阿瑟·艾許命名。阿瑟·艾許在1993年死於愛滋病，原因為他在接受心臟手術時因輸血而感染的。2號球場路易斯·阿姆斯特朗球場（Louis Armstrong Stadium），在阿瑟·艾許球場落成前為主要球場。所有球場均為硬地球場，這也使得美國公開賽的比賽球速總是非常地快。
@@ -1721,26 +1758,916 @@ Nairo Quintana</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nqz-0F-stf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5000.8000000000002" y="2879.5566502463057"/>
+            <point key="canvasLocation" x="5685.6000000000004" y="2879.5566502463057"/>
+        </scene>
+        <!--單車-->
+        <scene sceneID="ww3-T0-mpf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Knb-At-ntr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="單車" id="QCh-1x-u8V"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fiD-gN-agI">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="is8-13-CCl" kind="relationship" relationship="rootViewController" id="CPn-J9-Rnl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4fc-fb-mdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="892.61083743842369"/>
+        </scene>
+        <!--網球-->
+        <scene sceneID="SGP-rQ-Lbv">
+            <objects>
+                <navigationController title="網球" automaticallyAdjustsScrollViewInsets="NO" id="1IB-eL-QRc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="網球" id="QLj-oN-EBH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="T7h-vE-4Ta">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XzH-tR-AJ5" kind="relationship" relationship="rootViewController" id="FTH-T9-SDS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wea-pN-gLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458.39999999999998" y="2879.5566502463057"/>
+        </scene>
+        <!--四大公開賽-->
+        <scene sceneID="woF-vV-bzc">
+            <objects>
+                <tableViewController id="bF7-kA-Qvx" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mce-Qd-QOx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="9qf-jF-Xgh">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="214" id="YFd-SZ-Ner">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="214"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YFd-SZ-Ner" id="fi3-zv-SZU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="213.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PGA錦標賽" translatesAutoresizingMaskIntoConstraints="NO" id="rtD-BS-Qxk">
+                                                    <rect key="frame" x="67" y="0.0" width="240" height="168"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PGA錦標賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlR-yi-BZr">
+                                                    <rect key="frame" x="102" y="176" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BQJ-xk-T8B" kind="show" id="eBT-Di-CCH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="214" id="HaN-Gj-RNR">
+                                        <rect key="frame" x="0.0" y="214" width="375" height="214"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HaN-Gj-RNR" id="JvS-JG-Mfr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="213.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美國名人賽logo" translatesAutoresizingMaskIntoConstraints="NO" id="VhY-Je-wVc">
+                                                    <rect key="frame" x="67" y="0.0" width="240" height="168"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國名人賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2Z-t8-dxG">
+                                                    <rect key="frame" x="102" y="176" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vv1-Rw-YH9" kind="show" id="dbw-Tb-Cca"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="214" id="U1W-JK-TuH">
+                                        <rect key="frame" x="0.0" y="428" width="375" height="214"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U1W-JK-TuH" id="PFi-Rb-EmL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="213.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美國高爾夫公開賽" translatesAutoresizingMaskIntoConstraints="NO" id="hJN-aK-4Tk">
+                                                    <rect key="frame" x="67" y="0.0" width="240" height="168"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國高爾夫公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWI-k3-0jV">
+                                                    <rect key="frame" x="102" y="176" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="S2c-TH-ZeX" kind="show" id="en4-zl-JJx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="214" id="BgF-fa-YCa">
+                                        <rect key="frame" x="0.0" y="642" width="375" height="214"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BgF-fa-YCa" id="Iso-eY-H5t">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="213.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="英國高爾夫公開賽" translatesAutoresizingMaskIntoConstraints="NO" id="plk-Oj-2Zj">
+                                                    <rect key="frame" x="67" y="0.0" width="240" height="168"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英國高爾夫球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6h-nR-ikr">
+                                                    <rect key="frame" x="102" y="176" width="171" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="R7K-Yq-ahT" kind="show" id="uRS-WO-ER8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bF7-kA-Qvx" id="P8B-Ks-hZj"/>
+                            <outlet property="delegate" destination="bF7-kA-Qvx" id="8YY-tf-Rgp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="四大公開賽" id="b9h-7p-2L5"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NLA-oS-n0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1402.4000000000001" y="4228.8177339901476"/>
+        </scene>
+        <!--PGA錦標賽-->
+        <scene sceneID="xoB-eh-eXA">
+            <objects>
+                <viewController title="PGA錦標賽" id="BQJ-xk-T8B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cpf-m6-7HB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PGA錦標賽" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-P6-sB6">
+                                <rect key="frame" x="16" y="129" width="343" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PGA錦標賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-MY-jG2">
+                                <rect key="frame" x="112" y="394" width="150" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9U-mD-ISc">
+                                <rect key="frame" x="92" y="633" width="149" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrT-3p-v84">
+                                        <rect key="frame" x="62" y="20" width="67" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="參賽資格"/>
+                                        <connections>
+                                            <segue destination="xhZ-Ik-1xV" kind="show" id="4AF-Xi-ISf"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="lz7-iG-uLh">
+                                        <rect key="frame" x="20" y="24" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1wf-Vs-s59">
+                                <rect key="frame" x="92" y="508" width="138" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wp1-2l-GEl">
+                                        <rect key="frame" x="72" y="20" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="介紹"/>
+                                        <connections>
+                                            <segue destination="Z1H-kF-y53" kind="show" id="7AY-fA-d8t"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="OxT-LR-SWV">
+                                        <rect key="frame" x="20" y="20" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1m-dL-fp4">
+                                <rect key="frame" x="92" y="565" width="138" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zax-A5-tLB">
+                                        <rect key="frame" x="72" y="20" width="46" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="沿革"/>
+                                        <connections>
+                                            <segue destination="Aiu-7t-G9g" kind="show" id="Wx1-b3-h6D"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="Pyo-w3-Nzg">
+                                        <rect key="frame" x="20" y="31" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hA7-gC-sAc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ff-tp-XlT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="4228.8177339901476"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ube-Y1-ulz">
+            <objects>
+                <viewController id="Z1H-kF-y53" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HtN-Mq-dr7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FQ7-kg-Kfz">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">PGA錦標賽 （PGA Championship，又稱「PGA高爾夫球錦標賽」，也被美國以外地區稱為「美國PGA錦標賽」），是在美國舉行的每年一度的高爾夫球頂級賽事，其主辦方為美國職業高爾夫球員協會（Professional Golfers Association of America，簡稱USPGA）。該項賽事也是世界職業高爾夫球壇四大賽中之一（其餘三項為英國公開賽、美國名人賽和美國公開賽），一般都在每年的8月中旬舉行（一般與英國公開賽相隔四周）。由於它是每年四大滿貫賽事中最後一項，因此也被戲稱為「Glory的最後一擊」。這項賽事也是PGA巡迴賽、PGA歐洲巡迴賽和日本高爾夫球巡迴賽中的一環，2008年獎金總額達到750萬美元。
+與其他大滿貫賽事一樣，PGA錦標賽的優勝者將取得直接參加其他賽事的優先權，這對於球員的職業生涯來說非常重要。在取得PGA錦標賽冠軍後，該球員可以自動獲邀參加此後5年內的其他三項大滿貫賽事，同時也將獲得終生直接晉級PGA錦標賽正賽的資格。另外，冠軍獲得者也可以直接參加今後5年內的PGA巡迴賽全部比賽和球員錦標賽。
+PGA錦標賽在美國眾多球場都舉辦過，早期的一些球場並不太出名，但近年來主辦方選擇了少數幾個球場作為專用場地，而這些場地也同時為其他知名球賽服務。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y46-ab-6dE">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="Sr9-Cp-Y7J">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PGA錦標賽介紹" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxY-1r-X0g">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FSv-dG-ZxF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWS-L4-HIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="4228.8177339901476"/>
         </scene>
         <!--Tab Bar Controller-->
-        <scene sceneID="rcd-MZ-1Sk">
+        <scene sceneID="PHS-Of-Tet">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DOv-1s-Elc" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mcq-Of-Wjg" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="un5-PC-dcf">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xpl-QO-DIz">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2do-WU-vg0" kind="relationship" relationship="viewControllers" id="XlH-bQ-HFc"/>
-                        <segue destination="cel-xZ-INJ" kind="relationship" relationship="viewControllers" id="9uu-Bg-KjQ"/>
+                        <segue destination="Knb-At-ntr" kind="relationship" relationship="viewControllers" id="5cz-ca-gWU"/>
+                        <segue destination="1IB-eL-QRc" kind="relationship" relationship="viewControllers" id="AY7-mf-IKl"/>
+                        <segue destination="C6x-oZ-FvO" kind="relationship" relationship="viewControllers" id="aCg-vw-FDu"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="He2-PA-zR3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTh-Wd-ZoR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1089" y="1476"/>
+            <point key="canvasLocation" x="-1220" y="1923"/>
+        </scene>
+        <!--高爾夫四大公開賽-->
+        <scene sceneID="cw6-5R-SFM">
+            <objects>
+                <navigationController title="高爾夫四大公開賽" automaticallyAdjustsScrollViewInsets="NO" id="C6x-oZ-FvO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="高爾夫" id="h2Y-UE-5oO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lc6-kU-e1W">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bF7-kA-Qvx" kind="relationship" relationship="rootViewController" id="fEw-zl-gRu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xJt-ZJ-fam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="4229"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ewB-Zk-FQD">
+            <objects>
+                <viewController id="Aiu-7t-G9g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nh2-vt-dNx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VXb-QP-wo3">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">首屆PGA錦標賽於1916年在紐約Eastchester 的Siwanoy 鄉村高爾夫俱樂部舉行。當時的冠軍Jim Barnes贏得了500美元的獎金。與此相對，2008年PGA錦標賽的冠軍Pádraig Harrington贏得了135萬美元的巨獎。冠軍同時還會贏得由紐約商業界大亨羅德曼·沃納梅克（Rodman Wanamaker）捐贈的沃納梅克獎盃。
+該項賽事在初期採用了比洞賽模式，而自1958年起改用比杆賽。有評論認為，正是媒體轉播方出於提高收視率的考慮，而希望將一大批知名球員保留至決賽日，從而要求球賽組織者改變了比賽模式。
+在1971年，PGA錦標賽破例在2月份舉行，成為當年四大滿貫賽事中最早的一項比賽。而到1960年代為止，比賽經常在英國公開賽一周後的7月舉行，由於時間間隔太短，許多選手無法在短時間內跨過大西洋參加這項賽事。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjh-5a-58k">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="FyO-cv-exP">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PGA錦標賽沿革" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7X-uF-XiH">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gdi-5C-EiE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANQ-Kp-4Ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3762" y="4229"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="duO-Iw-Yen">
+            <objects>
+                <viewController id="xhZ-Ik-1xV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6EI-xX-TvT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LQD-ph-xav">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">最初高爾夫球運動往往被富有的業餘選手所掌控，因此PGA的創立者出於提高職業高爾夫球員的社會地位和影響力的目的而設立了這個賽事。這一傳統在現今的比賽中仍得以體現。PGA錦標賽是四大滿貫賽中唯一不邀請高水平業餘選手參加的比賽，也是唯一為球會職業球員保留了大量參賽席位（156個席位中的20個）的賽事。這些席位的分配和爭奪通過每年6月份各家俱樂部之間舉行的PGA 職業國家錦標賽來完成。
+從1968年起，PGA巡迴賽已獨立於美國職業高爾夫協會而自行運作。這一巡迴賽是由巡迴賽職業球員組成的組織，但是PGA錦標賽仍然是由俱樂部和職業高爾夫教練組成的美國職業高爾夫協會所管理的。PGA錦標賽是四大滿貫賽中唯一一個沒有明文規定世界排名前50的選手的直接參賽權的比賽，但實際上沒有通過資格賽的前100名選手一般都會受到邀請。
+以下是參加該項錦標賽的資格標準:
+所有PGA錦標賽的前冠軍
+最近5屆美國公開賽的冠軍
+最近5屆美國名人賽的冠軍
+最近5屆英國公開賽的冠軍
+上一屆高級PGA錦標賽的冠軍
+上一屆PGA錦標賽的前15名（包括並列第15名）成績者
+上一屆PGA 職業國家錦標賽的前20名成績者
+PGA巡迴賽中獲得獎金數最高的70名選手（統計期間自上一屆PGA錦標賽前1周至本次PGA錦標賽前2周）
+參加最近一屆萊德杯比賽的美國隊成員
+自上一屆PGA錦標賽之後，由PGA巡迴賽協辦或批准的賽事的冠軍（不包括職業選手和業餘選手混合賽或隊際對抗賽的選手）
+美國職業高爾夫球協會保留邀請不符合上述各項標準的球員直接參賽的權利
+全部參賽選手名額為156人。如有空缺，則將優先從獎金數排名的選手名單中擇優補滿</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Itq-Cn-ddQ">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="zM3-l4-dxe">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PGA錦標賽參賽資格" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSW-Uf-5VC">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AFb-bL-qz7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zV9-T8-02W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4457" y="4229"/>
+        </scene>
+        <!--美國名人賽-->
+        <scene sceneID="TT0-WN-PxS">
+            <objects>
+                <viewController title="美國名人賽" id="vv1-Rw-YH9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="akQ-er-VB0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美國名人賽logo" translatesAutoresizingMaskIntoConstraints="NO" id="keZ-cf-Gli">
+                                <rect key="frame" x="16" y="129" width="343" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國名人賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-z7-1hh">
+                                <rect key="frame" x="112" y="394" width="150" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beK-a3-uV9">
+                                <rect key="frame" x="92" y="508" width="138" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp7-N8-z2M">
+                                        <rect key="frame" x="72" y="20" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="介紹"/>
+                                        <connections>
+                                            <segue destination="ES5-sH-dbo" kind="show" id="SdI-cT-gFQ">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="cFA-8m-ijU">
+                                        <rect key="frame" x="20" y="20" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6yQ-uV-G4s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCH-vk-Wd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="4939"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hf3-bk-HIR">
+            <objects>
+                <viewController id="ES5-sH-dbo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tkd-aw-uuh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lH0-B9-vIZ">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">大師錦標賽（Masters Tournament），又名名人賽（The Masters），與英國公開賽（The Open Championship）、美國公開賽（United States Open Championship）和PGA錦標賽（PGA Championship）同屬高爾夫球界的四大錦標賽（Major Championship）賽事，每年都在奧古斯塔高爾夫球俱樂部舉辦，賽程長達四天。依照傳統，勝利者會穿上代表名人賽冠軍的綠色外套。
+而奧古斯塔球場為天才球員鮑比·瓊斯所設計。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSc-C5-oNX">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="D3Z-cF-NDr">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國名人賽介紹" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbx-Ke-RV9">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vdT-8V-q7a"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ddA-Xp-kHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="4939"/>
+        </scene>
+        <!--美國公開賽-->
+        <scene sceneID="ctK-g5-Stf">
+            <objects>
+                <viewController title="美國公開賽" id="S2c-TH-ZeX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2cC-IQ-1ok">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美國高爾夫公開賽" translatesAutoresizingMaskIntoConstraints="NO" id="rHB-U0-n1a">
+                                <rect key="frame" x="16" y="129" width="343" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國高爾夫公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehU-wV-WlE">
+                                <rect key="frame" x="112" y="394" width="150" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ioH-6T-g6h">
+                                <rect key="frame" x="92" y="633" width="149" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R20-k6-Vfg">
+                                        <rect key="frame" x="62" y="20" width="67" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="參賽資格"/>
+                                        <connections>
+                                            <segue destination="Ek3-eT-98T" kind="show" id="iRg-4N-ehO">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="mE2-x9-cvG">
+                                        <rect key="frame" x="20" y="24" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FeW-1l-DfD">
+                                <rect key="frame" x="92" y="508" width="138" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yia-vj-B5a">
+                                        <rect key="frame" x="72" y="20" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="介紹"/>
+                                        <connections>
+                                            <segue destination="H5B-dc-5WW" kind="show" id="fMO-FZ-GM9">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="heA-6c-FGH">
+                                        <rect key="frame" x="20" y="20" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNO-i5-CB5">
+                                <rect key="frame" x="92" y="565" width="138" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nge-VJ-XNT">
+                                        <rect key="frame" x="72" y="20" width="46" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="沿革"/>
+                                        <connections>
+                                            <segue destination="ZpG-Il-buG" kind="show" id="yxL-iJ-tg7">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="oMV-oE-RQe">
+                                        <rect key="frame" x="20" y="31" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="v6d-Zr-oGK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BSG-ng-MFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="5636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GMW-aC-OcL">
+            <objects>
+                <viewController id="H5B-dc-5WW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MoB-xH-1Nz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OW3-n9-exk">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">美國高爾夫球公開賽（United States Open Championship，簡稱U.S. Open及美國公開賽）是每年一度的高爾夫球四大滿貫賽事之一（另外三項是英國公開賽、美國名人賽、美國職業高爾夫球協會錦標賽）。由美國高爾夫協會（USGA）主辦。該賽於每年的6月中旬舉辦，如果沒有惡劣天氣影響，最後一輪決賽將於該月第三個星期日（即父親節）進行。第一屆美國高爾夫公開賽於1895年10月4日舉辦。每年的舉辦地點都不相同。2015年的美國公開賽冠軍得主是喬丹·斯皮思。
+美國公開賽並沒有固定的比賽場地，而是每年選擇美國境內的一個著名球場作為主辦地，這是為了避免選手通過研究熟悉場地而產生不公平的競爭。這項賽事以難度大著稱，即使是冠軍也往往只能取得平杆球略微上下的成績。選手都很難在美國公開賽中取得輝煌的杆數，甚至許多次冠軍的成績也都高於標準桿數(部分也是因為除了少數特別長的球場外，大部分情況下標準桿被定於70桿)。 大多數公開賽使用的場地都相當長，而且會有一大片寬闊的長草區（因此被美國媒體和球迷稱為「公開賽長草區」）、起伏不定的果嶺（如2005年公開賽場地Pinehurst2號球場，曾被NBC的Johnny Miller稱為「好像在金龜汽車的車頂擊球」）以及狹窄的球道(尤其在一些貌似簡單的球洞前)。一些希望成為美國公開賽比賽用地的球場必須進行改造，以滿足上述條件。在這方面最為著名的「球場美容師」就是Rees Jones。與其他職業高爾夫球賽一樣，主辦方在決定比賽用球場時，也會考慮到球場可容納的觀眾人數以及周邊的基礎設施等因素。
+與其他三項著名球賽不同，美國公開賽對於經過4輪比賽後取得相同成績的球員，並不會直接進入最後決賽。相反，這些選手會在次日（周一）進行第五輪18洞比賽，如果這輪比賽仍無法決出勝負，將進行突然死亡式的決勝局比賽。歷史上出現過三次突然死亡決勝局，最近一次出現在2008年，當時泰格·伍茲幸運地擊敗了Rocco Mediate。
+歷年的美國公開賽的電視實況轉播都由NBC和ESPN進行，此外ESPN還通過美國公開賽官方網站進行網絡直播。在高爾夫球的媒體合作商中，NBC是唯一全程轉播所有大滿貫比賽的4天賽程的電視台（CBS和ABC也轉播美國名人賽、英國公開賽和PGA錦標賽，但只播放周末的比賽內容）。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zx-1I-1LU">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="Y9C-uJ-CFl">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國公開賽介紹" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFn-Uf-3fC">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WRY-xp-XAb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sbv-c0-o8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="5636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wrI-ef-scv">
+            <objects>
+                <viewController id="ZpG-Il-buG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="quS-E0-fsY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Hq-sS-V68">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">首屆美國公開賽於1895年10月4日在羅德島Newport的9洞球場舉行。當時的賽程為4輪共36洞比賽，而且在1天內完成。共有10位職業選手和1位業餘選手參加。優勝者為21歲的英國選手Horace Rawlins。這屆比賽總獎金額為335美元，冠軍獎金為150美元外加一枚價值50美元的金牌。而冠軍所屬的俱樂部獲得了USGA頒發的公開賽冠軍獎盃。
+該項賽事最初被英國選手包攬了大多數冠軍，直至1911年首位本土選手John J. McDermott獲得了勝利。此後美國選手迅速占據了該項公開賽中的優勢地位，而該項賽事也成為了四大滿貫賽事之一。
+自從1911年之後，該項賽事的冠軍幾乎被美國人壟斷。1950年後，除了美國之外，只有5個國家的運動員獲得過冠軍榮譽，其中最突出的是南非，其在1965年之後累計獲得過5次冠軍。有意思的是，2004年至2007年間的連續四屆冠軍得主都來自南半球的四個國家：南非的Retief Goosen (2004)、紐西蘭的Michael Campbell (2005)、澳大利亞的Geoff Ogilvy (2006)以及阿根廷的Ángel Cabrera (2007)。而自從1970年奪冠的Tony Jacklin之後，歐洲選手就再也沒有獲得過這項賽事的冠軍。直到2010年格雷姆·麥克道維爾打破這一記錄。
+2008年公開賽的競爭非常激烈。最終爭奪冠軍的選手是泰格·伍茲和Rocco Mediate。他們在打完90洞的比賽後依然難分勝負，最終只能採用突然死亡法決出冠軍。而老虎伍茲神奇地在之後的第一個洞就以標準桿擊敗了打出柏忌的Mediate，從而成為歷史上第六名獲得過3次以上美國公開賽冠軍的偉大球員。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e49-IE-1yV">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="4mf-Ck-pwz">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國公開賽沿革" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-g4-YbD">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1Zq-Iy-hMH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZv-ta-mpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3761" y="5636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BTY-Tj-VRx">
+            <objects>
+                <viewController id="Ek3-eT-98T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F8B-Ql-SbH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-zI-Vhu">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">美國公開賽對所有職業球員以及所有USGA差點指數成績未超過1.4的業餘選手開放。任何男性或女性選手都可以通過資格賽或者直接進入正式比賽。比賽選手名額為156名.
+上述名額中約有一半的選手不需要參加資格賽而直接晉級。共有17個類別的選手可以直接晉級：前十年的美國公開賽冠軍、前五年的其他三項大滿貫賽事冠軍、上年度PGA巡迴賽獎金排名前30名、上年度歐洲巡迴賽獎金排名前15名、開賽前2周的官方世界高爾夫球員排名系統的前50名等等。
+其他未能直接晉級的選手則必須參加兩個階段組成的資格賽。首先各地選手可以選擇在全美100多個18洞球場的任何一個參加預選賽。許多知名選手可以跳過這個階段，直接進入打36洞的第二輪資格賽。第二輪比賽在美國、歐洲和日本都可以參加。資格賽沒有年齡限制，而史上晉級正賽的最年輕選手是2006年來自夏威夷的Tadd Fujikawa，當時這位神童只有15歲。
+2007年公開賽的獎金總額達到了七百萬美元，而其中冠軍獎金為1.26美元。同其他大滿貫賽事一樣，獲得了這項賽事冠軍的選手將會有多項特權：自動參加5年內的其他大滿貫賽事和球員錦標賽的正賽、10年內的美國公開賽的正賽、5年內的PGA巡迴賽等。
+每屆公開賽成績最好的15名選手將直接晉級下一年公開賽正賽，而其中前8名將自動獲邀參加下一賽季的全部大師賽。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bna-Rs-TZw">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="OmJ-sC-ucH">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美國公開賽                      參賽資格與獎金" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lR-3V-Fo9">
+                                        <rect key="frame" x="95" y="20" width="172" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0V2-ug-1sB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqC-bD-YcP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4456.8000000000002" y="5635.7142857142862"/>
+        </scene>
+        <!--英國公開賽-->
+        <scene sceneID="uom-Xh-VT0">
+            <objects>
+                <viewController title="英國公開賽" id="R7K-Yq-ahT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mp7-uX-Viu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="英國高爾夫公開賽" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-Km-kmF">
+                                <rect key="frame" x="16" y="129" width="343" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVL-zk-w2E">
+                                <rect key="frame" x="92" y="508" width="138" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYl-k0-nXS">
+                                        <rect key="frame" x="72" y="20" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="介紹"/>
+                                        <connections>
+                                            <segue destination="a64-L4-tgm" kind="show" id="ijh-qB-MTm">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="2De-sW-U8e">
+                                        <rect key="frame" x="20" y="20" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8QD-fg-3gb">
+                                <rect key="frame" x="92" y="565" width="138" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACv-pl-yxp">
+                                        <rect key="frame" x="72" y="20" width="46" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="歷史"/>
+                                        <connections>
+                                            <segue destination="HqL-7e-Ztb" kind="show" id="Vn3-F9-zpv">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="高爾夫" translatesAutoresizingMaskIntoConstraints="NO" id="8hX-vl-2mv">
+                                        <rect key="frame" x="20" y="31" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英國高爾夫球公開賽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUM-Hq-85D">
+                                <rect key="frame" x="86" y="394" width="202" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HAn-H1-lXv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="riW-jS-fpa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="6318.4729064039411"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RYg-V7-Ne9">
+            <objects>
+                <viewController id="a64-L4-tgm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uhP-kd-uMb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Odf-dm-Oyy">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">英國高爾夫球公開賽（The Open Championship，簡稱為「英國公開賽」），是高爾夫球四大滿貫賽事之一（另外三項是美國高爾夫公開賽、美國名人賽、美國職業高爾夫球協會錦標賽），於1860年開始舉辦，是四大滿貫中歷史最悠久的賽事。由英國的高爾夫球組織Royal and Ancient Golf Club of St Andrews（簡稱R&amp;A）主辦，於每年7月的第三個周末舉行。2010年冠軍得主是南非球手路易斯·歐修辛，2011年冠軍是北愛爾蘭選手達倫·克拉克。2015年冠軍是美國球手扎克·詹森。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zY-wJ-jCk">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="WWb-9S-JV9">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英國公開賽介紹" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8q-6J-glL">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YkR-zf-cED"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROh-Zl-5Pv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="6319"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zyW-RF-e4L">
+            <objects>
+                <viewController id="HqL-7e-Ztb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ohs-oF-Rbg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4SM-yu-PMl">
+                                <rect key="frame" x="16" y="210" width="343" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">英國公開賽起源於1860年，Prestwick 俱樂部發信邀請幾個優秀的俱樂部推薦他們的球童參加比賽，為剛去世的艾倫.羅伯森尋找接班人。在只有8名職業球手參加的第一屆賽事中，威利.帕克以36洞174桿成績奪冠。在業餘球手的抗議下，第二年，主辦人宣布「比賽將面向全世界敞開大門」。於是，真正的公開賽成立了。雖然第二屆也只有12人參加，但已包括業餘球員。第1到12屆比賽固定在 Prestwick 海濱球場舉行，之後比賽選擇不同的球場舉行，已沿用了10年的冠軍獎品——鑲嵌銀牌的紅色皮帶，也被沿用至今聞名全世的「葡萄壺獎盃」（Claret Jug Trophy）代替。早年，老湯姆.墨利斯與小湯姆.墨利斯是公開賽的常勝球手。老湯姆共拿過4次比賽的冠軍。小湯姆則於1868年－1871年連贏四屆，創下多項紀錄。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G5z-ek-UCY">
+                                <rect key="frame" x="54" y="107" width="267" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOLF" translatesAutoresizingMaskIntoConstraints="NO" id="Md4-0E-VXH">
+                                        <rect key="frame" x="20" y="20" width="67" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英國公開賽歷史" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPw-oR-1MN">
+                                        <rect key="frame" x="95" y="20" width="152" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="og8-56-i6P"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gC7-4e-v9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3761" y="6319"/>
         </scene>
     </scenes>
     <resources>
@@ -1749,7 +2676,9 @@ Nairo Quintana</string>
         <image name="440px-Chris_Froome_Tour_de_Romandie_2013_(cropped)" width="440" height="586"/>
         <image name="83167_00_d" width="700" height="700"/>
         <image name="Australian_Open_Logo_2017" width="480" height="480"/>
+        <image name="GOLF" width="217" height="232"/>
         <image name="Nairo_Quintana_Giro_2014" width="440" height="504"/>
+        <image name="PGA錦標賽" width="300" height="352"/>
         <image name="RE94200GIRS_FRONT" width="700" height="788"/>
         <image name="ST-RE942004GIBI" width="700" height="700"/>
         <image name="Tour_de_France_logo.svg" width="1024" height="1024"/>
@@ -1758,6 +2687,10 @@ Nairo Quintana</string>
         <image name="Wim_tennis.svg" width="400" height="188"/>
         <image name="giro-d-italia-2014-5" width="600" height="717"/>
         <image name="images" width="170" height="110"/>
+        <image name="桌布" width="168" height="300"/>
+        <image name="美國名人賽logo" width="240" height="299"/>
+        <image name="美國高爾夫公開賽" width="151" height="151"/>
+        <image name="英國高爾夫公開賽" width="400" height="108"/>
         <image name="螢幕快照 2018-03-20 下午11.26.52" width="570" height="1190"/>
         <image name="螢幕快照 2018-03-20 下午11.57.47" width="718" height="1554"/>
         <image name="螢幕快照 2018-03-20 下午11.58.59" width="660" height="1050"/>
@@ -1769,5 +2702,6 @@ Nairo Quintana</string>
         <image name="螢幕快照 2018-03-21 上午12.22.43" width="264" height="356"/>
         <image name="螢幕快照 2018-03-21 上午12.22.47" width="258" height="354"/>
         <image name="螢幕快照 2018-03-21 上午12.22.51" width="256" height="356"/>
+        <image name="高爾夫" width="177" height="285"/>
     </resources>
 </document>
